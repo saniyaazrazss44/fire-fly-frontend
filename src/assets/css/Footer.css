@@ -1,0 +1,18 @@
+@import url('/src/App.css');
+
+.footer {
+    background: var(--green-color);
+}
+
+.social-icons {
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.social-icons:hover {
+    transform: scale(1.1);
+}
+
+.footer-content h3 {
+    color: var(--yellow-color);
+}

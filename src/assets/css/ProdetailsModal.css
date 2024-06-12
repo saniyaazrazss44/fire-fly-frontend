@@ -1,0 +1,38 @@
+@import url('/src/App.css');
+
+.prodImg-container {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.prodImg-container:hover {
+    transform: scale(1.05);
+}
+
+.prod-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.prod-content ul li,
+.prod-content h3,
+.prod-description h3,
+.prod-description p {
+    color: var(--description-color);
+}
+
+.btnPurchase button {
+    background: var(--red-color);
+    color: #ffffff;
+}
+
+.prod-modal-container {
+    overflow-y: scroll !important;
+}
+
+@media screen and (max-width: 640px) {
+    .prod-modal-container {
+        overflow-y: scroll !important;
+    }
+}

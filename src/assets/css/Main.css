@@ -1,0 +1,25 @@
+@import url('/src/App.css');
+
+.main-container {
+    background-image: url('../img/images/main-bg.png');
+    height: 65vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.main-content button {
+    color: var(--red-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.main-content button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
